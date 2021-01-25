@@ -1,7 +1,7 @@
 {
-  "bg": "https://images.alphacoders.com/103/thumb-1920-1039414.png",
-  "title": "Quiz de Pokémon",
-  "description": "Teste os seus conhecimentos sobre Pokémon e vamos pegar todos!",
+  "bg": "https://i.pinimg.com/originals/26/8c/4e/268c4ec9daf57463d8fbc29d63d22e4b.jpg",
+  "title": "Quiz de Pato",
+  "description": "Teste os seus conhecimentos sobre PATOS e vamos ver se você é um QUACK QUACK de verdade!",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
@@ -31,9 +31,9 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#EB2117",
-      "secondary": "#8C27E8",
-      "mainBg": "#171B35",
+      "primary": "#FF920F",
+      "secondary": "#0FB1FF",
+      "mainBg": "#0078B3",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
