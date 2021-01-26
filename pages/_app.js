@@ -1,5 +1,9 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-props-no-spreading */
+import React from 'react'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import db from '../db.json'
+import Head from '../src/components/Head'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -25,11 +29,12 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const theme = db.theme;
+const { theme } = db
 
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head title={db.title} bg={db.bg} description={db.description} />
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />

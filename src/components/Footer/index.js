@@ -23,7 +23,7 @@ const FooterWrapper = styled.footer`
       text-decoration: underline;
     }
   }
-`;
+`
 
 export default function Footer(props) {
   return (
@@ -42,5 +42,5 @@ export default function Footer(props) {
         </a>
       </p>
     </FooterWrapper>
-  );
+  )
 }
