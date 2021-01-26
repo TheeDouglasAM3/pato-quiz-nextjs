@@ -1,6 +1,8 @@
+import React, { useState } from 'react'
 import styled from 'styled-components'
+import { useRouter } from 'next/router'
+
 import db from '../db.json'
-import Head from '../src/components/Head'
 import Widget from '../src/components/Widget'
 import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
@@ -16,13 +18,14 @@ export const QuizContainer = styled.div`
     margin: auto;
     padding-top: 15px;
   }
-`;
-
+`
 
 export default function Home() {
+  const router = useRouter()
+  const [name, setName] = useState('')
+
   return (
     <>
-      <Head title={db.title} bg={db.bg} description={db.description} />
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
           <QuizLogo />
@@ -32,6 +35,23 @@ export default function Home() {
             </Widget.Header>
             <Widget.Content>
               <p>{db.description}</p>
+
+              <form onSubmit={(infosDoEvento) => {
+                infosDoEvento.preventDefault()
+                router.push(`/quiz?name=${name}`)
+                console.log('Fazendo uma submissão por meio do react')
+              }}
+              >
+                <input
+                  onChange={(infosDoEvento) => {
+                    setName(infosDoEvento.target.value)
+                  }}
+                  placeholder="Diz ai seu nome"
+                />
+                <button type="submit" disabled={name.length === 0}>
+                  {`Jogar ${name}`}
+                </button>
+              </form>
             </Widget.Content>
           </Widget>
 
