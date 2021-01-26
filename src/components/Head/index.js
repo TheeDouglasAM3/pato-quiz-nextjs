@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Home({ title, bg }) {
+export default function Home({ title, description, bg }) {
   return (
       <Head>
         <title>{title}</title>
@@ -11,7 +11,7 @@ export default function Home({ title, bg }) {
         <meta property="og:title" content={title} />
         <meta property="og:site_name" content="PatoQuiz" />
 
-        <meta property="og:description" content="Minha boa descrição para intrigar os usuários." />
+        <meta property="og:description" content={description} />
         <meta property="og:image" content={bg} />
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="1920" />
