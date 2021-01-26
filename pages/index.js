@@ -22,7 +22,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <>
-      <Head title={db.title} bg={db.bg} />
+      <Head title={db.title} bg={db.bg} description={db.description} />
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
           <QuizLogo />
