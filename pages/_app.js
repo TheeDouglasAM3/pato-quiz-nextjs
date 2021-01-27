@@ -27,6 +27,16 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
+  ::placeholder {
+    color: ${({ theme }) => theme.colors.contrastText};
+    opacity: 1; /* Firefox */
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: ${({ theme }) => theme.colors.contrastText};
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: ${({ theme }) => theme.colors.contrastText};
+  }
 `
 
 const { theme } = db
