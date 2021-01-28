@@ -4,7 +4,7 @@
   "description": "Teste os seus conhecimentos sobre PATOS e vamos ver se você é um QUACK QUACK de verdade!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://media.giphy.com/media/krewXUB6LBja/giphy.gif",
       "title": "Como fazer um seletor por id via CSS?",
       "description": "Essa é pra aquecer",
       "answer": 2,
@@ -33,7 +33,7 @@
     "colors": {
       "primary": "#FF920F",
       "secondary": "#0FB1FF",
-      "mainBg": "#0078B3",
+      "mainBg": "#171B35",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
