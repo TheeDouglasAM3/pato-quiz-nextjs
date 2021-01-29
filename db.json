@@ -5,24 +5,60 @@
   "questions": [
     {
       "image": "https://media.giphy.com/media/krewXUB6LBja/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "title": "Do que os patos se alimentam?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 3,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Somente pão",
+        "Pão, frutas grandes e milho",
+        "Frutas grandes, formigas e alguns peixes",
+        "Verduras, sementes, grãos, insetos e alguns peixes"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://2.bp.blogspot.com/-iS6ipuMbChM/WFvF253X1zI/AAAAAAAAZ-s/tQrPFsGJr88FLewGaXgZQkHw0ArfzmKBgCLcB/s1600/Anas.gif",
+      "title": "Qual é essa espécie de pato do gif?",
+      "description": "Quack quack",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Pato Real",
+         "Alabio Duck",
+         "Marreco Guttata",
+         "Marreco Arcuata"
+      ]
+    },
+    {
+      "image": "https://media.tenor.com/images/f3866fcf9c314a4296d72904a4f8e88d/tenor.gif",
+      "title": "Quantos ovos (em média) os patos botam por ano?",
+      "description": "choca choca choca os ovos",
+      "answer": 1,
+      "alternatives": [
+         "200 ovos",
+         "100 ovos",
+         "50 ovos",
+         "20 ovos"
+      ]
+    },
+    {
+      "image": "https://data.whicdn.com/images/186946113/original.gif",
+      "title": "Qual o peso médio de um pato da espécie pato-real?",
+      "description": "estreando: pato Donald",
+      "answer": 2,
+      "alternatives": [
+         "1,24 - 2,4kg",
+         "0,96 - 2kg",
+         "0,72 - 1,6kg",
+         "0,48 - 1,2kg"
+      ]
+    },
+    {
+      "image": "https://media1.tenor.com/images/d274ab854c621379ff999a7fffb6d15f/tenor.gif",
+      "title": "Todos os patos sabem voar?",
+      "description": "estreando: Patolino",
+      "answer": 1,
+      "alternatives": [
+         "Verdade",
+         "Mentira"
       ]
     }
   ],
