@@ -63,7 +63,8 @@
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-devsoutinho-git-master.omariosouto.vercel.app/",
+    "https://pato-quiz-nextjs.theedouglasam.vercel.app/"
   ],
   "theme": {
     "colors": {
